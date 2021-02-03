@@ -1,0 +1,100 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: 26.67vw;
+}
+section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 1.85rem;
+    background:url(../images/log_03.png),url(../images/log_05.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: 2.3rem 0.2rem,0.025rem 1rem;
+    background-size: 1.5rem 1.5rem,0.8rem 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:0 0.1rem;
+}
+header span{
+    font-size: 0.14rem;
+    color: #666;
+}
+header h3{
+    font-size: 0.22rem;
+    color: #666;
+}
+main{
+    width: 100%;
+    flex: 1;
+    overflow: auto;
+}
+main p{
+    height: 0.3rem;
+    display: flex;
+    font-size: 0.22rem;
+    justify-content: center;
+}
+main p input{
+    width: 3.5rem;
+    height: 0.43rem;
+   font-size: 0.2rem;
+   outline: none;
+   border: none;
+}
+main p:nth-child(3) input{
+    border-radius: 0.25rem;
+}
+::-webkit-input-placeholder{
+    color: #ccc;
+    font-size: 0.16rem;
+}
+main p:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+}
+main p span{
+    font-size: 0.16rem;
+    color: #aaa;
+}
+aside{
+    width: 100%;
+    height: 0.73rem;
+    display: flex;
+    justify-content: space-around;
+    background: url(../images/log_10.png) no-repeat 60px -10px;
+    background-size: 1rem 0.5rem;
+}
+aside a{
+    width: 0.25rem;
+    height: 0.25rem;
+   text-decoration: none;
+}
+aside a:nth-child(4){
+    width: 1.27rem;
+    height: 0.27rem;
+    color: #000;
+    font-size: 0.1rem;
+    border: #000 solid 1px;
+    text-align: center;
+    line-height: 0.27rem;
+    border-radius: 0.25rem;
+}
+footer{
+    width: 100%;
+    height: 0.62rem;
+}
+footer p{
+    font-size: 0.11rem;
+    text-align: center;
+    color: #eb5634;
+}
+footer p span{
+    color: #868686;
+}

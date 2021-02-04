@@ -99,9 +99,11 @@ main{
     width: 100%;
     flex: 1;
     overflow: auto;
+    background: #f3f5f6;
 }
 main div{
     margin: 0.1rem 0;
+    background: #fff;
 }
 main .box1{
     width: 3.53rem;
@@ -143,22 +145,103 @@ main .box1 p:nth-of-type(3) img{
 main .box2{
     width: 3.53rem;
     height: 1.24rem;
-    background: red;
+    margin-bottom: 25px;
 }
 main .box3{
     width: 3.53rem;
     height: 0.81rem;
-    background: green;
+    display: flex;
+    flex-direction: column;
 }
 main .box4{
     width: 3.53rem;
     height: 1.17rem;
-    background: skyblue;
 }
 main .box5{
     width: 3.53rem;
     height: 2.83rem;
-    background: orange;
+}
+.topbox{
+    width: 3.53rem;
+    height: 0.59rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ececec;
+    display: flex;
+    font-size: 0.1rem;
+}
+.topbox .box11{
+    width: 1.75rem;
+    height: 0.59rem;
+}
+.topbox .box11 img{
+    float: left;
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.topbox .box11 p{
+    float: right;
+    width: 1rem;
+    height: 0.59rem;
+    margin: 3px 10px;
+}
+.topbox .box11 p span{
+    font-size: 0.11rem;
+}
+.topbox .box22{
+    width: 1.75rem;
+    height: 0.59rem;
+}
+.topbox .box22 img{
+    float: left;
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.topbox .box22 p{
+    float: right;
+    width: 1rem;
+    height: 0.59rem;
+    margin: 3px 10px;
+}
+.topbox .box22 p span{
+    font-size: 0.11rem;
+}
+.bottombox{
+    width: 3.53rem;
+    height: 0.68rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottombox div{
+    width: 0.55rem;
+    height: 0.55rem;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.bottombox div i img{
+    display: block;
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.bottombox div span{
+    font-size: 0.1rem;
+    color: #a0a0a0;
+}
+main .box3 p{
+    height: 0.4rem;
+    font-size: 0.11rem;
+    margin-left:25px;
+    border-bottom: 1px solid #ececec;
+    box-sizing: border-box;
+}
+main .box4 h4{
+    font-size: 0.11rem;
+    margin-left: 25px;
 }
 footer{
     width: 100%;
